@@ -26,7 +26,7 @@ public class TC001_AccountRegistrationTest extends BaseClass {
 		ac.setCfmPassword(s);
 		ac.clkAgree();
 		ac.clkContinue();
-		Assert.assertEquals(ac.getConfirmation(),"Your Account Has Been Created!!");
+		Assert.assertEquals(ac.getConfirmation(),"Your Account Has Been Created!");
 		logger.info("Test Ends");
 	}
 
